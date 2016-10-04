@@ -1,0 +1,76 @@
+body {
+  margin: 0 auto;
+  background-image: url('../img/background.jpg');
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: courier;
+  background-color: #eee;
+  color: #1A1110;
+  letter-spacing: 6px;
+  width: 500px;
+  margin: 40px auto 30px;
+  padding: 10px 0;
+}
+
+#username,
+#comment,
+#btn {
+  display: block;
+  margin: 25px auto;
+  outline: none;
+}
+
+#username,
+#comment {
+  width: 400px;
+  padding: 15px;
+  font-size: 18px;
+  font-family: sans-serif;
+  border: none;
+  border-bottom: 2px solid #eee;
+  color: gray;
+  background: transparent;
+}
+
+#btn {
+  font-size: 18px;
+  padding: 10px 40px;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+h3,
+h4 {
+  font-family: courier;
+  color: #1A1110;
+  background-color: #eee;
+  margin-bottom: 0;
+}
+
+h3 {
+  padding: 10px 15px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+h4 {
+  padding: 0 15px 10px;
+  text-align: right;
+  margin-top: 0;
+  color: gray;
+  font-size: 14px;
+}
+
+p {
+  line-height: 32px;
+  color: #eee;
+  width: 450px;
+  margin: 25px auto;
+}
